@@ -14,19 +14,19 @@ adminRouter.post("/signup", (req, res) => {
   });
 });
 
-adminRouter.post("/", (req, res) => {
+adminRouter.post("/course", (req, res) => {
   res.json({
     message: "Admine can create the courses",
   });
 });
 
-adminRouter.put("/", (req, res) => {
+adminRouter.put("/course", (req, res) => {
   res.json({
     message: "Admin can update the course",
   });
 });
 
-adminRouter.get("/bulk", (req, res) => {
+adminRouter.get("/course/bulk", (req, res) => {
   res.json({
     message: "Admin can get the all the courses that he has",
   });
